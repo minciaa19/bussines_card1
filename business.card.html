@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business card</title>
+    <style>
+        body {
+            background: url('https://cdn.pixabay.com/photo/2018/02/27/06/30/skyscrapers-3184798_1280.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+        .container {
+            margin: 100px auto;
+            padding: 30px;
+            background-color: black;
+            width:400px ;
+            height: 160px;  
+            color: silver;
+            font-size: 20px;
+
+        }
+        .business-card img {
+            float: left;
+          
+        }
+        .username, .email, .download-cv {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+        .username span{
+            border-bottom: 2px solid red;
+            padding-bottom: 4px;
+
+        }
+        .email {
+            font-size: 15px;
+        }
+        .download-cv a  {
+            color: red;
+            font-size: 15px ;
+            text-decoration: none;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="business-card">
+            <img src="https://randomuser.me/api/portraits/women/59.jpg" alt="" >
+            <p class="username">   
+                <span>  Daniel Fargo</span>    
+            </p>
+            <p class="email">
+                <span>daniel.fargo@gmail.com</span>
+            </p>
+            <p class="download-cv">
+                <span>
+                    <a href="#">Dowloand CV</a>
+                </span>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
